@@ -14,6 +14,6 @@ ENDCLASS.
 
 CLASS zcl_tmp_abapgit_test IMPLEMENTATION.
   METHOD if_oo_adt_classrun~main.
-    out->write( |Just a test| ).
+    out->write( |Just a test - number 2| ).
   ENDMETHOD.
 ENDCLASS.
